@@ -1,0 +1,221 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+header{
+	background-image: url(images/icons8-team-649367-unsplash.jpg);
+	height: 100vh;
+	background-size: cover;
+	/*background-position: center;
+	*/
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+ 
+	padding:5px 20px; 
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+}
+ul li a:hover{
+	color: orange;
+	background-color: white;
+}
+
+ul li a:focus{
+	background-color: white;
+	color:red;
+}
+h1{
+	top: 15%;
+	left: 35%;
+	color: white;
+	position: absolute;
+}
+/*
+
+.selected a{
+	color: #E8CBA9;
+	background-color: white;
+}*/
+ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 30px;
+
+}
+ul li{
+	display: inline-block;
+}
+div img.logo{
+	width: 90px;
+	height: 50px;
+	margin-top: 30px;
+
+	float: left;
+}
+.side{
+	position: absolute;
+	width: 25%;
+	margin-top: 300px;
+}
+div.side h2{
+	margin: 20px;
+	font-family: fantasy;
+	color:#625A4F;
+}
+div.side p{
+	font-family: fantasy;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border-radius: 10px;
+}
+/****page 2**********************/
+.all{
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	padding: 5px;
+
+
+	overflow: hidden;
+}
+.left{
+
+	position: relative;
+	margin-top: 120px;
+	width:30%; 
+	height: 460px;
+text-align: center;
+color: white;
+background-color: #656156;
+	float: left;
+
+
+}
+.right{
+	position: relative;
+	width:70%; 
+	margin-top: 120px;
+
+	height: 460px;
+	
+background-color: white;
+	float: right;
+	
+
+}
+div img.profil{
+border-radius: 50%;
+margin-top: 60px;
+	width: 80px;
+	height: 80px;
+	box-shadow: 5px 5px 8px white,-5px -5px 8px white;
+
+}
+div.right h3{
+	color: #E75D5A;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+
+}
+div.right h4{
+	margin-left: 30px;
+	color: #656156
+}
+div.right p{
+	margin-left: 30px;
+
+}
+.info{
+	font-size: 15px;
+	border-top:2px solid white;
+	margin-top: 50px;
+	padding-top: 10px;
+}
+/********************/
+
+.loginbox {
+	position: absolute;
+	top: 20%;
+	
+}
+.loginbox{
+	margin-left: 60px;
+	background-color: rgba(101 ,97 ,86,0.7);
+	width: 500px;
+	padding: 20px;
+
+
+}
+.loginbox h5{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+.loginbox label{
+
+	color: #E75D5A;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 300px;
+	height: 30px;
+}
+
+.loginbox h3.contact{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+#submit{
+	width: 100px;
+	height: 40px;
+	margin-left: 30px;
+	background-color: white;
+	color:#E75D5A;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 10px;
+	float: right;
+	border: 1px solid transparent;
+
+
+}
+#submit:hover{
+	cursor: pointer;
+	background-color: #E6CCAB;
+	color: red
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workshop Web</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img class="logo" src="images/white.png">
+			<ul class="home">
+				<li class="selected" id="home"><a href="workshop.html" onclick="f1()">Home</a></li>
+				<li id="skils"><a href="CV.html" onclick="f2()">Skils</a></li>
+				<li id="resume"><a href="#">Resume</a></li>
+				<li id="about"><a href="#" onclick="f3()">About</a></li>
+				<li id="contact"><a href="Contact.html" onclick="f4()">Contact</a></li>
+			</ul>
+			
+		</div>
+		
+		
+		<div class="loginbox container">
+		<h3 class="contact">Contacter Nous</h3>
+		
+			<label>Nom</label><br><br>
+			<input type="text" name="nom" placeholder="Entrer votre nom!"><br>
+			<div id="erreurNom" class="wrong"></div>
+
+
+			<label>Prénom</label><br><br>
+			<input type="text" name="prenom" placeholder="Entrer votre prénom!"><br>
+			<div id="erreurPrenom" class="wrong"></div>
+
+
+
+
+			<label>Email</label><br><br>
+			<input type="email" name="email" placeholder="Enter votre email!"><br>
+			<div id="erreurEmail" class="wrong"></div>
+
+		
+			<label>Age</label><br><br>
+			<input type="number" name="age"><br>
+			<div id="erreurAge" class="wrong"></div>
+			
+
+			<label>Laissez nous un commentaire</label><br><br>
+	        <textarea placeholder="messages..."></textarea>
+
+
+			
+
+	        <input type="submit" id="submit" name="" value="Envoyer" onclick="Erreur();">
+		
+	</div>
+
+	</header>
+	<script src="workshopscript.js"></script>
+	<script type="text/javascript">
+		var nav= responsiveNav(".nav-collapse");
+	</script>
+
+</body>
+</html>
